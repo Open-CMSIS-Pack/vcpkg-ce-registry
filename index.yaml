@@ -1,41 +1,42 @@
 # MANIFEST-INDEX
 items:
   [
-    tools/open-cmsis-pack/ctools-0.10.1.json,    tools/open-cmsis-pack/ctools-0.10.2.json
+    tools/open-cmsis-pack/ctools-0.10.1.json,    tools/open-cmsis-pack/ctools-0.10.2.json,    tools/open-cmsis-pack/ctools-1.1.0.json
   ]
 indexes:
-  IdentityKey/info.id:
+  IdentityKey/id:
     keys:
-      tools/open-cmsis-pack/ctools: [ 0, 1 ]
+      tools/open-cmsis-pack/ctools: [ 0, 1, 2 ]
     words:
-      cmsis: [ 0, 1 ]
-      cmsis-pack: [ 0, 1 ]
-      cmsis-pack/ctools: [ 0, 1 ]
-      ctools: [ 0, 1 ]
-      open: [ 0, 1 ]
-      open-cmsis: [ 0, 1 ]
-      open-cmsis-pack: [ 0, 1 ]
-      open-cmsis-pack/ctools: [ 0, 1 ]
-      pack: [ 0, 1 ]
-      pack/ctools: [ 0, 1 ]
-      tools: [ 0, 1 ]
-      tools/open: [ 0, 1 ]
-      tools/open-cmsis: [ 0, 1 ]
-      tools/open-cmsis-pack: [ 0, 1 ]
-      tools/open-cmsis-pack/ctools: [ 0, 1 ]
-  SemverKey/info.version:
+      cmsis: [ 0, 1, 2 ]
+      cmsis-pack: [ 0, 1, 2 ]
+      cmsis-pack/ctools: [ 0, 1, 2 ]
+      ctools: [ 0, 1, 2 ]
+      open: [ 0, 1, 2 ]
+      open-cmsis: [ 0, 1, 2 ]
+      open-cmsis-pack: [ 0, 1, 2 ]
+      open-cmsis-pack/ctools: [ 0, 1, 2 ]
+      pack: [ 0, 1, 2 ]
+      pack/ctools: [ 0, 1, 2 ]
+      tools: [ 0, 1, 2 ]
+      tools/open: [ 0, 1, 2 ]
+      tools/open-cmsis: [ 0, 1, 2 ]
+      tools/open-cmsis-pack: [ 0, 1, 2 ]
+      tools/open-cmsis-pack/ctools: [ 0, 1, 2 ]
+  SemverKey/version:
     keys:
       0.10.1: [ 0 ]
       0.10.2: [ 1 ]
-  StringKey/info.summary:
+      1.1.0: [ 2 ]
+  StringKey/summary:
     keys:
-      Open-CMSIS-Pack cli tools: [ 0, 1 ]
+      Open-CMSIS-Pack cli tools: [ 0, 1, 2 ]
     words:
-      CMSIS: [ 0, 1 ]
-      CMSIS-Pack: [ 0, 1 ]
-      Open: [ 0, 1 ]
-      Open-CMSIS: [ 0, 1 ]
-      Open-CMSIS-Pack: [ 0, 1 ]
-      Pack: [ 0, 1 ]
-      cli: [ 0, 1 ]
-      tools: [ 0, 1 ]
+      CMSIS: [ 0, 1, 2 ]
+      CMSIS-Pack: [ 0, 1, 2 ]
+      Open: [ 0, 1, 2 ]
+      Open-CMSIS: [ 0, 1, 2 ]
+      Open-CMSIS-Pack: [ 0, 1, 2 ]
+      Pack: [ 0, 1, 2 ]
+      cli: [ 0, 1, 2 ]
+      tools: [ 0, 1, 2 ]
