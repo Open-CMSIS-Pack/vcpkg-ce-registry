@@ -1,0 +1,67 @@
+{
+	"info": {
+		"id": "tools/open-cmsis-pack/ctools",
+		"version": "1.2.0",
+		"description": "The open-source Open-CMSIS-Pack tools make it easy to create and validate CMSIS-Packs as well as compose and build Embedded Arm Cortex-M Microcontroller projects using CMSIS-Packs.",
+		"summary": "Open-CMSIS-Pack cli tools"
+	},
+	"contacts": {
+		"Joachim Krech": {
+			"email": "joachim.krech@linaro.org",
+			"role": "publisher"
+		},
+		"ctools": {
+			"email": "open-cmsis-pack-dev@op-lists.linaro.org",
+			"role": "originator"
+		}
+	},
+	"demands": {
+		"windows and x64": {
+			"install": {
+				"unzip": "https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/download/1.2.0/cmsis-toolbox-windows64.zip",
+				"sha256": "c8805343022e77cc6152c0497b57ae51be5741700e9b6e27eb92b991d5e9aaea",
+				"strip": 1
+			},
+			"exports": {
+				"tools": {
+					"csolution": "bin/csolution.exe",
+					"cbuild": "bin/cbuild.exe",
+					"cpackget": "bin/cpackget.exe",
+					"cbuildgen": "bin/cbuildgen.exe",
+					"packchk": "bin/packchk.exe"
+				},
+				"paths": {
+					"PATH": "bin"
+				}
+			}
+		},
+		"linux and x64": {
+			"install": {
+				"untar": "https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/download/1.2.0/cmsis-toolbox-linux64.tar.gz",
+				"sha256": "4d2bfda83341a16c5d9ec2f97a9f5a22180aedee16da244889e741106c0af223",
+				"strip": 1
+			}
+		},
+		"osx and x64": {
+			"install": {
+				"untar": "https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/download/1.2.0/cmsis-toolbox-darwin64.tar.gz",
+				"sha256": "3f8c522487c17b46ef40affe7884b2e0566008dcd4ca5788e5738162184032a4",
+				"strip": 1
+			}
+		},
+		"not windows": {
+			"exports": {
+				"tools": {
+					"csolution": "bin/csolution",
+					"cbuild": "bin/cbuild",
+					"cpackget": "bin/cpackget",
+					"cbuildgen": "bin/cbuildgen",
+					"packchk": "bin/packchk"
+				},
+				"paths": {
+					"PATH": "bin"
+				}
+			}
+		}
+	}
+}
