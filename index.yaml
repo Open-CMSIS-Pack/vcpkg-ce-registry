@@ -1,44 +1,49 @@
-# MANIFEST-INDEX
 items:
   [
-    tools/open-cmsis-pack/ctools-0.10.1.json,    tools/open-cmsis-pack/ctools-0.10.2.json,    tools/open-cmsis-pack/ctools-1.2.0.json,    tools/open-cmsis-pack/ctools-1.3.0.json,    tools/open-cmsis-pack/ctools-1.1.0.json
+    tools/open-cmsis-pack/ctools-0.10.2.json,
+    tools/open-cmsis-pack/ctools-0.10.1.json,
+    tools/open-cmsis-pack/ctools-1.2.0.json,
+    tools/open-cmsis-pack/ctools-1.1.0.json,
+    tools/open-cmsis-pack/ctools-1.3.0.json,
+    tools/open-cmsis-pack/ctools-1.4.0.json
   ]
 indexes:
-  IdentityKey/info.id:
+  IdentityKey/id:
     keys:
-      tools/open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4 ]
+      tools/open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5 ]
     words:
-      cmsis: [ 0, 1, 2, 3, 4 ]
-      cmsis-pack: [ 0, 1, 2, 3, 4 ]
-      cmsis-pack/ctools: [ 0, 1, 2, 3, 4 ]
-      ctools: [ 0, 1, 2, 3, 4 ]
-      open: [ 0, 1, 2, 3, 4 ]
-      open-cmsis: [ 0, 1, 2, 3, 4 ]
-      open-cmsis-pack: [ 0, 1, 2, 3, 4 ]
-      open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4 ]
-      pack: [ 0, 1, 2, 3, 4 ]
-      pack/ctools: [ 0, 1, 2, 3, 4 ]
-      tools: [ 0, 1, 2, 3, 4 ]
-      tools/open: [ 0, 1, 2, 3, 4 ]
-      tools/open-cmsis: [ 0, 1, 2, 3, 4 ]
-      tools/open-cmsis-pack: [ 0, 1, 2, 3, 4 ]
-      tools/open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4 ]
-  SemverKey/info.version:
+      cmsis: [ 0, 1, 2, 3, 4, 5 ]
+      cmsis-pack: [ 0, 1, 2, 3, 4, 5 ]
+      cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5 ]
+      ctools: [ 0, 1, 2, 3, 4, 5 ]
+      open: [ 0, 1, 2, 3, 4, 5 ]
+      open-cmsis: [ 0, 1, 2, 3, 4, 5 ]
+      open-cmsis-pack: [ 0, 1, 2, 3, 4, 5 ]
+      open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5 ]
+      pack: [ 0, 1, 2, 3, 4, 5 ]
+      pack/ctools: [ 0, 1, 2, 3, 4, 5 ]
+      tools: [ 0, 1, 2, 3, 4, 5 ]
+      tools/open: [ 0, 1, 2, 3, 4, 5 ]
+      tools/open-cmsis: [ 0, 1, 2, 3, 4, 5 ]
+      tools/open-cmsis-pack: [ 0, 1, 2, 3, 4, 5 ]
+      tools/open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5 ]
+  SemverKey/version:
     keys:
-      0.10.1: [ 0 ]
-      0.10.2: [ 1 ]
-      1.1.0: [ 4 ]
+      0.10.1: [ 1 ]
+      0.10.2: [ 0 ]
+      1.1.0: [ 3 ]
       1.2.0: [ 2 ]
-      1.3.0: [ 3 ]
-  StringKey/info.summary:
+      1.3.0: [ 4 ]
+      1.4.0: [ 5 ]
+  StringKey/summary:
     keys:
-      Open-CMSIS-Pack cli tools: [ 0, 1, 2, 3, 4 ]
+      Open-CMSIS-Pack cli tools: [ 0, 1, 2, 3, 4, 5 ]
     words:
-      CMSIS: [ 0, 1, 2, 3, 4 ]
-      CMSIS-Pack: [ 0, 1, 2, 3, 4 ]
-      Open: [ 0, 1, 2, 3, 4 ]
-      Open-CMSIS: [ 0, 1, 2, 3, 4 ]
-      Open-CMSIS-Pack: [ 0, 1, 2, 3, 4 ]
-      Pack: [ 0, 1, 2, 3, 4 ]
-      cli: [ 0, 1, 2, 3, 4 ]
-      tools: [ 0, 1, 2, 3, 4 ]
+      CMSIS: [ 0, 1, 2, 3, 4, 5 ]
+      CMSIS-Pack: [ 0, 1, 2, 3, 4, 5 ]
+      Open: [ 0, 1, 2, 3, 4, 5 ]
+      Open-CMSIS: [ 0, 1, 2, 3, 4, 5 ]
+      Open-CMSIS-Pack: [ 0, 1, 2, 3, 4, 5 ]
+      Pack: [ 0, 1, 2, 3, 4, 5 ]
+      cli: [ 0, 1, 2, 3, 4, 5 ]
+      tools: [ 0, 1, 2, 3, 4, 5 ]
