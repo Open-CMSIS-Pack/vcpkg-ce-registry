@@ -1,10 +1,8 @@
 {
-	"info": {
-		"id": "tools/open-cmsis-pack/ctools",
-		"version": "1.1.0",
-		"description": "The open-source Open-CMSIS-Pack tools make it easy to create and validate CMSIS-Packs as well as compose and build Embedded Arm Cortex-M Microcontroller projects using CMSIS-Packs.",
-		"summary": "Open-CMSIS-Pack cli tools"
-	},
+	"id": "tools/open-cmsis-pack/ctools",
+	"version": "1.1.0",
+	"description": "The open-source Open-CMSIS-Pack tools make it easy to create and validate CMSIS-Packs as well as compose and build Embedded Arm Cortex-M Microcontroller projects using CMSIS-Packs.",
+	"summary": "Open-CMSIS-Pack cli tools",
 	"contacts": {
 		"Joachim Krech": {
 			"email": "joachim.krech@linaro.org",
