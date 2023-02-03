@@ -33,6 +33,13 @@
 				"strip": 1
 			}
 		},
+		"linux and arm64": {
+			"install": {
+				"untar": "https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/download/1.4.0/cmsis-toolbox-linux-arm64.tar.gz",
+				"sha256": "6791e7d4e581692feb88dbd6253397b72d1e923f63eb8e33f7a45e48d357f939",
+				"strip": 1
+			}
+		},
 		"osx and x64": {
 			"install": {
 				"untar": "https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/download/1.4.0/cmsis-toolbox-darwin-amd64.tar.gz",

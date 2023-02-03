@@ -3,8 +3,8 @@ items:
     tools/open-cmsis-pack/ctools-0.10.1.json,
     tools/open-cmsis-pack/ctools-0.10.2.json,
     tools/open-cmsis-pack/ctools-1.1.0.json,
-    tools/open-cmsis-pack/ctools-1.3.0.json,
     tools/open-cmsis-pack/ctools-1.2.0.json,
+    tools/open-cmsis-pack/ctools-1.3.0.json,
     tools/open-cmsis-pack/ctools-1.4.0.json
   ]
 indexes:
@@ -32,8 +32,8 @@ indexes:
       0.10.1: [ 0 ]
       0.10.2: [ 1 ]
       1.1.0: [ 2 ]
-      1.2.0: [ 4 ]
-      1.3.0: [ 3 ]
+      1.2.0: [ 3 ]
+      1.3.0: [ 4 ]
       1.4.0: [ 5 ]
   StringKey/summary:
     keys:
