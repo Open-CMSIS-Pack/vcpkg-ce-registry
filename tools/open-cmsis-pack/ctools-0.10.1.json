@@ -39,7 +39,7 @@
 				"strip": 1
 			}
 		},
-		"osx and x64": {
+		"osx": {
 			"install": {
 				"untar": "https://github.com/Open-CMSIS-Pack/devtools/releases/download/tools/toolbox/0.10.1/cmsis-toolbox-darwin64.tar.gz",
 				"sha256": "4f7339ce77b3c1f8551f817e0aeaef260c77cc8a348591450ff8d32583d340f2",
