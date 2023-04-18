@@ -6,28 +6,29 @@ items:
     tools/open-cmsis-pack/ctools-1.2.0.json,
     tools/open-cmsis-pack/ctools-1.3.0.json,
     tools/open-cmsis-pack/ctools-1.4.0.json,
-    tools/open-cmsis-pack/ctools-1.5.0.json
+    tools/open-cmsis-pack/ctools-1.5.0.json,
+    tools/open-cmsis-pack/ctools-1.6.0-dev0.json
   ]
 indexes:
   IdentityKey/id:
     keys:
-      tools/open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5, 6 ]
+      tools/open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
     words:
-      cmsis: [ 0, 1, 2, 3, 4, 5, 6 ]
-      cmsis-pack: [ 0, 1, 2, 3, 4, 5, 6 ]
-      cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5, 6 ]
-      ctools: [ 0, 1, 2, 3, 4, 5, 6 ]
-      open: [ 0, 1, 2, 3, 4, 5, 6 ]
-      open-cmsis: [ 0, 1, 2, 3, 4, 5, 6 ]
-      open-cmsis-pack: [ 0, 1, 2, 3, 4, 5, 6 ]
-      open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5, 6 ]
-      pack: [ 0, 1, 2, 3, 4, 5, 6 ]
-      pack/ctools: [ 0, 1, 2, 3, 4, 5, 6 ]
-      tools: [ 0, 1, 2, 3, 4, 5, 6 ]
-      tools/open: [ 0, 1, 2, 3, 4, 5, 6 ]
-      tools/open-cmsis: [ 0, 1, 2, 3, 4, 5, 6 ]
-      tools/open-cmsis-pack: [ 0, 1, 2, 3, 4, 5, 6 ]
-      tools/open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5, 6 ]
+      cmsis: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      cmsis-pack: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      ctools: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      open: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      open-cmsis: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      open-cmsis-pack: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      pack: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      pack/ctools: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      tools: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      tools/open: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      tools/open-cmsis: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      tools/open-cmsis-pack: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      tools/open-cmsis-pack/ctools: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
   SemverKey/version:
     keys:
       0.10.1: [ 0 ]
@@ -37,15 +38,16 @@ indexes:
       1.3.0: [ 4 ]
       1.4.0: [ 5 ]
       1.5.0: [ 6 ]
+      1.6.0-dev0: [ 7 ]
   StringKey/summary:
     keys:
-      Open-CMSIS-Pack cli tools: [ 0, 1, 2, 3, 4, 5, 6 ]
+      Open-CMSIS-Pack cli tools: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
     words:
-      CMSIS: [ 0, 1, 2, 3, 4, 5, 6 ]
-      CMSIS-Pack: [ 0, 1, 2, 3, 4, 5, 6 ]
-      Open: [ 0, 1, 2, 3, 4, 5, 6 ]
-      Open-CMSIS: [ 0, 1, 2, 3, 4, 5, 6 ]
-      Open-CMSIS-Pack: [ 0, 1, 2, 3, 4, 5, 6 ]
-      Pack: [ 0, 1, 2, 3, 4, 5, 6 ]
-      cli: [ 0, 1, 2, 3, 4, 5, 6 ]
-      tools: [ 0, 1, 2, 3, 4, 5, 6 ]
+      CMSIS: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      CMSIS-Pack: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      Open: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      Open-CMSIS: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      Open-CMSIS-Pack: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      Pack: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      cli: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+      tools: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
