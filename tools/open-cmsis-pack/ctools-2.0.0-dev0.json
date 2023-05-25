@@ -1,0 +1,77 @@
+{
+	"id": "tools/open-cmsis-pack/ctools",
+	"version": "2.0.0-dev0",
+	"description": "The open-source Open-CMSIS-Pack tools make it easy to create and validate CMSIS-Packs as well as compose and build Embedded Arm Cortex-M Microcontroller projects using CMSIS-Packs.",
+	"summary": "Open-CMSIS-Pack cli tools",
+	"contacts": {
+		"Joachim Krech": {
+			"email": "joachim.krech@linaro.org",
+			"role": "publisher"
+		},
+		"ctools": {
+			"email": "open-cmsis-pack-dev@op-lists.linaro.org",
+			"role": "originator"
+		}
+	},
+	"demands": {
+		"windows and x64": {
+			"install": {
+				"unzip": "https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/download/2.0.0-dev0/cmsis-toolbox-windows-amd64.zip",
+				"sha256": "ca6d9b78116de02aff32f7f397f41ccb5e6e0042063adeb8a34d6b5a51a06dae",
+				"strip": 1
+			},
+			"exports": {
+				"paths": {
+					"PATH": "bin"
+				}
+			}
+		},
+		"windows and arm64": {
+			"install": {
+				"unzip": "https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/download/2.0.0-dev0/cmsis-toolbox-windows-arm64.zip",
+				"sha256": "2b34703b70aa27e6aafb35314b3bdbbe58588334ca456e45c68bc22c4c958ed0",
+				"strip": 1
+			},
+			"exports": {
+				"paths": {
+					"PATH": "bin"
+				}
+			}
+		},
+		"linux and x64": {
+			"install": {
+				"untar": "https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/download/2.0.0-dev0/cmsis-toolbox-linux-amd64.tar.gz",
+				"sha256": "5651bc3cde4cb6405c736cc8b8627531f8e59dff59b6fbbb41462c365d7eba11",
+				"strip": 1
+			}
+		},
+		"linux and arm64": {
+			"install": {
+				"untar": "https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/download/2.0.0-dev0/cmsis-toolbox-linux-arm64.tar.gz",
+				"sha256": "d17991703c0b86af8602bb824bdb4de77c39848d60f01c4bdc0fd8c1b3844c92",
+				"strip": 1
+			}
+		},
+		"osx and x64": {
+			"install": {
+				"untar": "https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/download/2.0.0-dev0/cmsis-toolbox-darwin-amd64.tar.gz",
+				"sha256": "e6f8bc16094c7d8de6c62535fbb9861ba665fa747bed65959ae3a4b7602337ab",
+				"strip": 1
+			}
+		},
+		"osx and arm64": {
+			"install": {
+				"untar": "https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/download/2.0.0-dev0/cmsis-toolbox-darwin-arm64.tar.gz",
+				"sha256": "d637b18193711023075c330662f8e67036606dce3d9fceb8f0e9f7ca34e782a9",
+				"strip": 1
+			}
+		},
+		"not windows": {
+			"exports": {
+				"paths": {
+					"PATH": "bin"
+				}
+			}
+		}
+	}
+}
