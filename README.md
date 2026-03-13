@@ -37,7 +37,7 @@ description
 summary
 contacts:
 demands:
-- "windows and x64" | "windows and arm64" | "linux and x64" | "linux and arm64" | "osx and x64" | "osx and x64"
+- "windows and x64" | "windows and arm64" | "linux and x64" | "linux and arm64" | "osx and x64" | "osx and arm64"
   - install:
     - untar | unzip
     - sha256
