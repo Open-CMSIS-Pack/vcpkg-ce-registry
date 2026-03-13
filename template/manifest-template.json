@@ -1,0 +1,74 @@
+{
+	"id": "ToDo - artifact id",
+	"version": "ToDo - artifact version",
+	"description": "ToDo - description",
+	"summary": "ToDo - very brief description",
+	"contacts": {
+		"Name": ToDo - name {
+			"email": "ToD - email",
+			"role": "publisher"
+		},
+		"ToDo - artifactname": {
+			"email": "ToDo email",
+			"role": "originator"
+		}
+	},
+	"demands": {
+		"windows and x64": {
+			"install": {
+				"unzip": "ToDo - web url for downloading the artifact version for the specified OS ....zip",
+				"sha256": "ToDo - hashsum for the above artifact when downloaded",
+				"strip": "ToDo - number specifying the number of subdirectories to remove e.g.: 0
+			}
+		},
+		"windows and arm64": {
+			"install": {
+				"unzip": "ToDo",
+				"sha256": "ToDo",
+				"strip": ToDo
+			}
+		},
+ 		"windows": {
+			"exports": {
+				"paths": {
+					"PATH": "ToDo"
+				}
+			}
+		},
+		"linux and x64": {
+			"install": {
+				"untar": "....tar.gz or ....tgz",
+				"sha256": "",
+				"strip": ToDo
+			}
+		},
+		"linux and arm64": {
+			"install": {
+				"untar": "ToDo",
+				"sha256": "ToDo",
+				"strip": ToDo
+			}
+		},
+		"osx and x64": {
+			"install": {
+				"untar": "ToDo",
+				"sha256": "ToDo",
+				"strip": ToDo
+			}
+		},
+		"osx and arm64": {
+			"install": {
+				"untar": "ToDo",
+				"sha256": "ToDo",
+				"strip": ToDo
+			}
+		},
+		"not windows": {
+			"exports": {
+				"paths": {
+					"PATH": "ToDo"
+				}
+			}
+		}
+	}
+}
