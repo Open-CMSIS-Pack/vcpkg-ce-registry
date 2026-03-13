@@ -1,7 +1,7 @@
 # Vendor vcpkg-ce-registry
 How to create and maintain a vendor specific tools registry for use with Microsoft's vcpkg tool.
 
-This repository provides an example of a github hosted vcpkg ce registry.
+This repository provides an example of a GitHub hosted vcpkg ce registry.
 
 The examples uses the following name definitions:
 
