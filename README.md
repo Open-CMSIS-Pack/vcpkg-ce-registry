@@ -73,6 +73,7 @@ add registry and add artifact to the `requires:` node in a vcpkg-configuration.j
   "my-registry:tools/my-org/my-tool": "1.0.0"
  }
 }
+```
 
 Step 7:
 download, install and activate the artifact version
