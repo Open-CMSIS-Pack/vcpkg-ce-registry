@@ -3,7 +3,7 @@ How to create and maintain a vendor specific tools registry for use with Microso
 
 This repository provides an example of a GitHub hosted vcpkg ce registry.
 
-The examples uses the following name definitions:
+The example uses the following name definitions:
 
 registry owner: my-registry 
 artifact vendor: my-vendor
