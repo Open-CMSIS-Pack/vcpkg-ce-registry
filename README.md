@@ -66,7 +66,7 @@ add registry and add artifact to the `requires:` node in a vcpkg-configuration.j
   {
    "name": "my-registry",
    "kind": "artifact",
-   "location": "https://github.com/Open-CMSIS-Pack/vcpkg-ce-registry/archive/refs/heads/main.zip"
+   "location": "https://github.com/<owner>/<repo>/archive/refs/heads/main.zip"
   }
  ],
  "requires": {
