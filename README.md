@@ -48,7 +48,7 @@ demands:
 ```
 
 Step 4:
-create/update index.json
+create/update index.yaml
 
 ```bash
   vcpkg-shell z-ce regenerate .
